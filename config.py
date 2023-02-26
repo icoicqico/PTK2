@@ -21,5 +21,5 @@ params = {"num_features": 40,
           "from_pretrained": False,
           "model_path": "kws_model_2.pth",
           "start_epoch": 40,
-          "path_to_file": "/home/jason/Documents/ptk/keyword-spotting/ptk_2.wav",
+          "path_to_file": "ptk_2.wav",
           }

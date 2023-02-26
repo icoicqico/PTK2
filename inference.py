@@ -7,7 +7,7 @@ import wandb
 import numpy as np
 device = torch.device('cpu')
 model = KWSNet(params)
-model.load_state_dict(torch.load("/home/jason/Documents/ptk/keyword-spotting/kws_model_2.pth", map_location=device))
+model.load_state_dict(torch.load("kws_model_2.pth", map_location=device))
 model = model.eval()
 wav_file = "ptk_2.wav"
 wav, sr = torchaudio.load(wav_file)
